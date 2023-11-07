@@ -14,7 +14,7 @@ class BooksTableSeeder extends Seeder
     {
         $param = [
             'title' => 'Laravel入門',
-            'author' => '掌田　津耶乃',
+            'author' => '掌田 津耶乃',
             'publisher' => '秀和システム',
             'price' => '3300',
             'star' => '★★★★★',
@@ -24,7 +24,7 @@ class BooksTableSeeder extends Seeder
 
         $param = [
             'title' => 'Laravel入門',
-            'author' => '掌田　津耶乃',
+            'author' => '掌田 津耶乃',
             'publisher' => '秀和システム',
             'price' => '3300',
             'star' => '★★★★★',
@@ -34,7 +34,7 @@ class BooksTableSeeder extends Seeder
 
         $param = [
             'title' => 'Laravel入門',
-            'author' => '掌田　津耶乃',
+            'author' => '掌田 津耶乃',
             'publisher' => '秀和システム',
             'price' => '3300',
             'star' => '★★★★★',

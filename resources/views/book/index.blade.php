@@ -5,21 +5,15 @@
 @section('content')
 @parent
 
-<h3>※一覧表示※</h3>
+<h3>※登録一覧※</h3>
 <table>
     <tr>
-    <th>No.</th><th>タイトル</th><th>著者</th><th>出版社</th><th>定価</th><th>スター</th><th>レビュー</th>
+    <th class="item_name">登録ID:タイトル(著者)</th>
     </tr>
 
     @foreach ($items as $item)
     <tr>
-        <td>{{$item->id}}</td>
-        <td>{{$item->title}}</td>
-        <td>{{$item->author}}</td>
-        <td>{{$item->publisher}}</td>
-        <td>{{$item->price}}</td>
-        <td>{{$item->star}}</td>
-        <td>{{$item->review}}</td>
+        <td>{{$item->getDate()}}</td>
     </tr>
     @endforeach
 

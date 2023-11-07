@@ -11,15 +11,16 @@
             font-weight: bold;
             color: ;
         }
+        td {
+            margin: 5px;
+        }
+        .item_name {
+            text-align: left;
+        }
         .search table {
             border: solid 1px black;
             padding: 8px;
         }
-        .send_btn {
-            
-        }
-
-
         .footer {
             text-align: right;
         }
@@ -61,7 +62,13 @@
                         <th>レビュー </th>
                         <td><textarea name="review" id="" cols="60" rows="10"></textarea></td>
                     </tr>
-                    <tr><th></th><td><input type="submit" value="検索" class="send_btn"></td></tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input type="submit" value="検索" class="find_btn">
+                            <input type="submit" value="追加" class="add_btn">
+                        </td>
+                    </tr>
                 </table>
             </form>
             <hr>
